@@ -1,0 +1,23 @@
+.Subject-card{
+    overflow: hidden;
+    cursor: pointer;
+}
+.Subject-img{
+    position: relative;
+    transition: transform .5s ease-in-out,opacity .3s,-webkit-transform .5s ease-in-out;
+}
+.Subject-img:hover{
+    transform: scale3d(1.1,1.1,1);
+    opacity: .9;
+}
+.Subject-title{
+    position: absolute;
+    bottom: 65px;
+    left: 80px;
+}
+.color-dark{
+    color: #0ac432;
+}
+.color-orrange{
+    color: salmon;
+}
